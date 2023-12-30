@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yandex-analiz"
+version = "0.1.0"
+description = ""
+authors = ["BAkhtiyar <cena61454@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yandex_analiz"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+selenium = "^4.16.0"
+polars = "^0.20.2"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
